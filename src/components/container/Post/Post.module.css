@@ -1,0 +1,71 @@
+.post-container {
+  width: 40%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 7px 19px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 7px 19px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  position: relative;
+}
+
+.post-line {
+  position: absolute;
+  width: 2.5px;
+  height: 100px;
+  background-color: #a5236d;
+  left: 20px;
+  top: 59px;
+}
+
+.post-text {
+  margin-top: -15px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.post-info {
+  margin-top: -15px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-actions {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.post-comment {
+  width: 75%;
+  margin-right: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+}
+
+.post-button {
+  width: 50px;
+}
+
+.post-comment:focus {
+  outline: none;
+}
+
+.added-comments {
+  max-height: 100px;
+  overflow-y: scroll;
+  width: 760px;
+  max-width: 760px;
+}

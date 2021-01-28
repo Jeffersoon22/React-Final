@@ -1,0 +1,18 @@
+.create {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.text  {
+    width: 90%;
+}
