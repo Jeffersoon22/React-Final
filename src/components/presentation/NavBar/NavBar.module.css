@@ -1,0 +1,16 @@
+.links_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+a {
+  margin-right: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
